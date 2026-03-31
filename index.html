@@ -372,7 +372,7 @@
       <div class="header-inner">
         <div class="app-badge">
           <img
-            src="app-iOS-Default-1024x1024@1x.png"
+            src="icon.png"
             alt="Newborn Tracker"
             style="width: 28px; height: 28px; border-radius: 8px"
           />
@@ -394,8 +394,9 @@
           <span
             >Your baby's data stays on your device by default. If you opt in to
             Family Sync or iCloud Backup, your data is encrypted and sent only
-            where you choose. We never sell, share, or monetize your
-            information.</span
+            where you choose. We collect anonymous usage analytics (like which
+            features are popular) to improve the app. We never sell, share, or
+            monetize your personal information.</span
           >
         </p>
       </div>
@@ -542,13 +543,24 @@
           and improvements over the air. No personal data is transmitted.
         </p>
         <p>
-          No advertising SDKs. No analytics platforms. No social media trackers.
-          No data brokers.
+          <strong>Google Firebase Analytics</strong> (usage analytics): We collect
+          anonymous event data to understand how the app is used, such as which
+          features are popular and where people drop off during onboarding. Events
+          include things like "feed logged" or "paywall viewed" with no personally
+          identifiable information attached. No names, child data, or health
+          information is ever sent. Firebase may collect device identifiers and IP
+          addresses as part of its standard operation. You can learn more in
+          <a href="https://firebase.google.com/support/privacy" target="_blank"
+            >Firebase's privacy documentation</a
+          >.
+        </p>
+        <p>
+          No advertising SDKs. No social media trackers. No data brokers.
         </p>
         <div class="pills">
           <span class="pill red">✗ No advertising</span>
-          <span class="pill red">✗ No analytics</span>
-          <span class="pill red">✗ No tracking</span>
+          <span class="pill green">✓ Anonymous analytics only</span>
+          <span class="pill red">✗ No social tracking</span>
           <span class="pill red">✗ No data selling</span>
         </div>
       </div>
